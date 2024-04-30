@@ -11,8 +11,13 @@ figcaption {
     color: rgb(85, 85, 85);
     font-style: italic;
     font-family: sans-serif;
-    margin: 0 0.5rem;
-    font-size: rem;
+    margin: 0.2rem 0rem 3rem 0.5rem;
+    font-size: 1.2rem;
+}
+
+div.container {
+    max-width: 51rem;
+    margin: auto;
 }
 
 header {
@@ -21,7 +26,7 @@ header {
 }
 
 h1 {
-    width: 6rem;
+    width: 8rem;
  
 }
 
@@ -46,6 +51,7 @@ a {
 
 nav a {
     color: rgb(85, 119, 153);
+    font-size: 1.3rem;
 }
 
 h2 {
@@ -57,29 +63,47 @@ h2 {
 p {
     color: rgb(34, 34, 34);
     font-family: sans-serif;
-    font-size: 1rem;
+    font-size: 1.29rem;
     margin-left: 0.5rem;
 }
 
 .main h2 {
-    font-size: 3rem;
+    font-size: 3.7rem;
+}
+
+article h2 {
+    font-size: 3.7rem;
+    margin-bottom: 1rem;
 }
 
 section p {
+    padding-bottom: 2rem;
+}
+
+article p {
     margin-bottom: 2rem;
 }
 
 .secondary h2 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
 .tertiary h2 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     padding-top: 0.5rem;
 }
 
 section.tertiary h2 {
     border-top: 1px solid rgb(85, 119, 153);
+}
+
+main .secondary h2 {
+    font-size: 2.3srem;
+}
+
+aside {
+    background-color: rgb(203, 207, 255);
+    padding: 1rem;
 }
 
 footer p {
