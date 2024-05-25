@@ -8,11 +8,12 @@ img {
 }
 
 figcaption {
-    color: rgb(85, 85, 85);
+    color: rgb(119, 113, 132);
+    font-family: "lato", sans-serif;
+    font-weight: 400;
     font-style: italic;
-    font-family: sans-serif;
     margin: 0.2rem 0rem 3rem 0.5rem;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
 }
 
 div.container,
@@ -27,14 +28,17 @@ header {
 }
 
 h1 {
-    width: 8rem;
+    width: 20rem;
  
 }
 
 nav {
     margin: 1rem 0rem;
-    font-weight: bold;
-    font-family: sans-serif;
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-bottom: 3px solid rgb(110, 135, 120);
+    padding-bottom: 1rem;
 }
 
 li {
@@ -51,30 +55,54 @@ a {
 	}
 
 nav a {
-    color: rgb(85, 119, 153);
+    color: rgb(110, 135, 120);
     font-size: 1.3rem;
 }
 
+div {
+    background-color: rgb(244, 244, 246);
+}
+
+body {
+    background-color: rgb(30, 30, 36);
+}
+
 h2 {
-    color: rgb(85, 119, 153);
-    font-weight: bold;
+    color: rgb(110, 135, 120);
     margin-left: 0.5rem;
-    font-family: serif;
+}
+
+aside.story {
+    padding-top: 3rem;
+}
+
+aside.story h2 {
+    color: rgb(30, 30, 36);
 }
 
 p {
-    color: rgb(34, 34, 34);
-    font-family: sans-serif;
+    color: rgb(9, 9, 11);
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1rem;
     margin-left: 0.5rem;
 }
 
 .main h2 {
     font-size: 3rem;
+    padding-top: 1rem;
+    font-family: "abril-fatface", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 article h2 {
     font-size: 3rem;
     margin-bottom: 1rem;
+    font-family: "abril-fatface", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 section p {
@@ -87,15 +115,22 @@ article p {
 
 .secondary h2 {
     font-size: 1.5rem;
+    margin-top: 1rem;
+    font-family: "cormorant-garamond", serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .tertiary h2 {
     font-size: 1.5rem;
     padding-top: 0.5rem;
+    font-family: "cormorant-garamond", serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 section.tertiary h2 {
-    border-top: 1px solid rgb(85, 119, 153);
+    border-top: 1px solid rgb(110, 135, 120);
 }
 
 main .secondary h2 {
@@ -103,17 +138,21 @@ main .secondary h2 {
 }
 
 aside {
-    background-color: rgb(203, 207, 255);
+    background-color: rgb(164, 175, 171);
     padding: 1rem;
 }
 
 div.home-container aside {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(244, 244, 246);
+}
+
+.secondary {
+    padding: 0 1.5rem;
 }
 
 footer p {
-    background-color: rgb(85, 119, 153);
-    color: rgb(238, 238, 238);
+    background-color: rgb(110, 135, 120);
+    color: rgb(244, 244, 246);
     margin-left: 0;
     padding: 0.8rem 0.5rem;
 }
@@ -155,7 +194,7 @@ footer p {
     }
 
     div.home-container aside {
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(244, 244, 246);
         padding-top: 0;
         margin-top: 0;
     }
@@ -171,6 +210,7 @@ footer p {
     section.main a figure {
         flex: 1 0 12em;
         display: flex;
+        margin-bottom: 1rem;
     }
 
     section.main a figure img {
