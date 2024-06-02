@@ -21,11 +21,11 @@ div.gallery,
 div.newsletter,
 div.home-container {
     max-width: 51rem;
-    margin: auto;
+    margin: 0 auto;
 }
 
 header {
-    margin: 0.5rem;
+    margin: 0 0.5rem 0.5rem;
     padding-top: 1rem;
 }
 
